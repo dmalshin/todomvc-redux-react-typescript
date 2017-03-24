@@ -1,3 +1,4 @@
+export { default as Search } from './components/Search';
 export { default as Footer } from './components/Footer';
 export { default as Header } from './components/Header';
 export { default as MainSection } from './components/MainSection';

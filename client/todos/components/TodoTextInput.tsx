@@ -49,7 +49,6 @@ class TodoTextInput extends React.Component<TodoTextInputProps, TodoTextInputSta
         })}
         type="text"
         placeholder={this.props.placeholder}
-        autoFocus={true}
         value={this.state.text}
         onBlur={this.handleBlur.bind(this)}
         onChange={this.handleChange.bind(this)}

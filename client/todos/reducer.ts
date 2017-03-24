@@ -9,7 +9,7 @@ import {
   COMPLETE_TODO,
   COMPLETE_ALL,
   CLEAR_COMPLETED
-} from './constants/ActionTypes';
+} from './actions';
 
 const initialState: IState = [<Todo>{
   text: 'Use Redux with TypeScript',

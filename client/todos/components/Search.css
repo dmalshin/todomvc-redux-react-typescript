@@ -1,0 +1,21 @@
+.search {
+  position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 24px;
+    left: -12px;
+    width: 60px;
+    height: 34px;
+    text-align: center;
+    border: none;
+}
+
+.search-icon:before {
+    content: '\1F50D';
+    font-size: 22px;
+    color: #e6e6e6;
+    opacity: .35;
+    padding: 10px 27px 10px 27px;
+}
